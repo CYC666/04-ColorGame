@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044453261D37A6E3004701A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044453251D37A6E3004701A3 /* main.m */; };
+		044453291D37A6E3004701A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044453281D37A6E3004701A3 /* AppDelegate.m */; };
+		0444532C1D37A6E3004701A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444532B1D37A6E3004701A3 /* ViewController.m */; };
+		0444532F1D37A6E3004701A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0444532D1D37A6E3004701A3 /* Main.storyboard */; };
+		044453311D37A6E3004701A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044453301D37A6E3004701A3 /* Assets.xcassets */; };
+		044453341D37A6E3004701A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044453321D37A6E3004701A3 /* LaunchScreen.storyboard */; };
+		0444533F1D37A6E3004701A3 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444533E1D37A6E3004701A3 /* ____Tests.m */; };
+		0444534A1D37A6E3004701A3 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044453491D37A6E3004701A3 /* ____UITests.m */; };
+		044453591D37A70A004701A3 /* ColorGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044453581D37A70A004701A3 /* ColorGameView.m */; };
+		046EC25C1D420E2800F7747E /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2511D420E2800F7747E /* Icon-60.png */; };
+		046EC25D1D420E2800F7747E /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2521D420E2800F7747E /* Icon-60@2x.png */; };
+		046EC25E1D420E2800F7747E /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2531D420E2800F7747E /* Icon-60@3x.png */; };
+		046EC25F1D420E2800F7747E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2541D420E2800F7747E /* Icon-Small.png */; };
+		046EC2601D420E2800F7747E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2551D420E2800F7747E /* Icon-Small@2x.png */; };
+		046EC2611D420E2800F7747E /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2561D420E2800F7747E /* Icon-Small@3x.png */; };
+		046EC2621D420E2800F7747E /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2571D420E2800F7747E /* Icon-Spotlight-40.png */; };
+		046EC2631D420E2800F7747E /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2581D420E2800F7747E /* Icon-Spotlight-40@2x.png */; };
+		046EC2641D420E2800F7747E /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046EC2591D420E2800F7747E /* Icon-Spotlight-40@3x.png */; };
+		046EC2651D420E2800F7747E /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 046EC25A1D420E2800F7747E /* iTunesArtwork */; };
+		046EC2661D420E2800F7747E /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 046EC25B1D420E2800F7747E /* iTunesArtwork@2x */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0444533B1D37A6E3004701A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044453191D37A6E3004701A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044453201D37A6E3004701A3;
+			remoteInfo = "色差游戏";
+		};
+		044453461D37A6E3004701A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044453191D37A6E3004701A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044453201D37A6E3004701A3;
+			remoteInfo = "色差游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044453211D37A6E3004701A3 /* 色差游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "色差游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044453251D37A6E3004701A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044453271D37A6E3004701A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044453281D37A6E3004701A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0444532A1D37A6E3004701A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0444532B1D37A6E3004701A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0444532E1D37A6E3004701A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044453301D37A6E3004701A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044453331D37A6E3004701A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044453351D37A6E3004701A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0444533A1D37A6E3004701A3 /* 色差游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "色差游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0444533E1D37A6E3004701A3 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		044453401D37A6E3004701A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044453451D37A6E3004701A3 /* 色差游戏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "色差游戏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044453491D37A6E3004701A3 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		0444534B1D37A6E3004701A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044453571D37A70A004701A3 /* ColorGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGameView.h; sourceTree = "<group>"; };
+		044453581D37A70A004701A3 /* ColorGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGameView.m; sourceTree = "<group>"; };
+		046EC2511D420E2800F7747E /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		046EC2521D420E2800F7747E /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		046EC2531D420E2800F7747E /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		046EC2541D420E2800F7747E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		046EC2551D420E2800F7747E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		046EC2561D420E2800F7747E /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		046EC2571D420E2800F7747E /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		046EC2581D420E2800F7747E /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		046EC2591D420E2800F7747E /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		046EC25A1D420E2800F7747E /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		046EC25B1D420E2800F7747E /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0444531E1D37A6E3004701A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044453371D37A6E3004701A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044453421D37A6E3004701A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044453181D37A6E3004701A3 = {
+			isa = PBXGroup;
+			children = (
+				046EC2501D420E2800F7747E /* Icon */,
+				044453231D37A6E3004701A3 /* 色差游戏 */,
+				0444533D1D37A6E3004701A3 /* 色差游戏Tests */,
+				044453481D37A6E3004701A3 /* 色差游戏UITests */,
+				044453221D37A6E3004701A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044453221D37A6E3004701A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044453211D37A6E3004701A3 /* 色差游戏.app */,
+				0444533A1D37A6E3004701A3 /* 色差游戏Tests.xctest */,
+				044453451D37A6E3004701A3 /* 色差游戏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044453231D37A6E3004701A3 /* 色差游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				044453271D37A6E3004701A3 /* AppDelegate.h */,
+				044453281D37A6E3004701A3 /* AppDelegate.m */,
+				0444532A1D37A6E3004701A3 /* ViewController.h */,
+				0444532B1D37A6E3004701A3 /* ViewController.m */,
+				044453571D37A70A004701A3 /* ColorGameView.h */,
+				044453581D37A70A004701A3 /* ColorGameView.m */,
+				0444532D1D37A6E3004701A3 /* Main.storyboard */,
+				044453301D37A6E3004701A3 /* Assets.xcassets */,
+				044453321D37A6E3004701A3 /* LaunchScreen.storyboard */,
+				044453351D37A6E3004701A3 /* Info.plist */,
+				044453241D37A6E3004701A3 /* Supporting Files */,
+			);
+			path = "色差游戏";
+			sourceTree = "<group>";
+		};
+		044453241D37A6E3004701A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044453251D37A6E3004701A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0444533D1D37A6E3004701A3 /* 色差游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0444533E1D37A6E3004701A3 /* ____Tests.m */,
+				044453401D37A6E3004701A3 /* Info.plist */,
+			);
+			path = "色差游戏Tests";
+			sourceTree = "<group>";
+		};
+		044453481D37A6E3004701A3 /* 色差游戏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				044453491D37A6E3004701A3 /* ____UITests.m */,
+				0444534B1D37A6E3004701A3 /* Info.plist */,
+			);
+			path = "色差游戏UITests";
+			sourceTree = "<group>";
+		};
+		046EC2501D420E2800F7747E /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				046EC2511D420E2800F7747E /* Icon-60.png */,
+				046EC2521D420E2800F7747E /* Icon-60@2x.png */,
+				046EC2531D420E2800F7747E /* Icon-60@3x.png */,
+				046EC2541D420E2800F7747E /* Icon-Small.png */,
+				046EC2551D420E2800F7747E /* Icon-Small@2x.png */,
+				046EC2561D420E2800F7747E /* Icon-Small@3x.png */,
+				046EC2571D420E2800F7747E /* Icon-Spotlight-40.png */,
+				046EC2581D420E2800F7747E /* Icon-Spotlight-40@2x.png */,
+				046EC2591D420E2800F7747E /* Icon-Spotlight-40@3x.png */,
+				046EC25A1D420E2800F7747E /* iTunesArtwork */,
+				046EC25B1D420E2800F7747E /* iTunesArtwork@2x */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044453201D37A6E3004701A3 /* 色差游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0444534E1D37A6E3004701A3 /* Build configuration list for PBXNativeTarget "色差游戏" */;
+			buildPhases = (
+				0444531D1D37A6E3004701A3 /* Sources */,
+				0444531E1D37A6E3004701A3 /* Frameworks */,
+				0444531F1D37A6E3004701A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "色差游戏";
+			productName = "色差游戏";
+			productReference = 044453211D37A6E3004701A3 /* 色差游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044453391D37A6E3004701A3 /* 色差游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044453511D37A6E3004701A3 /* Build configuration list for PBXNativeTarget "色差游戏Tests" */;
+			buildPhases = (
+				044453361D37A6E3004701A3 /* Sources */,
+				044453371D37A6E3004701A3 /* Frameworks */,
+				044453381D37A6E3004701A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0444533C1D37A6E3004701A3 /* PBXTargetDependency */,
+			);
+			name = "色差游戏Tests";
+			productName = "色差游戏Tests";
+			productReference = 0444533A1D37A6E3004701A3 /* 色差游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044453441D37A6E3004701A3 /* 色差游戏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044453541D37A6E3004701A3 /* Build configuration list for PBXNativeTarget "色差游戏UITests" */;
+			buildPhases = (
+				044453411D37A6E3004701A3 /* Sources */,
+				044453421D37A6E3004701A3 /* Frameworks */,
+				044453431D37A6E3004701A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044453471D37A6E3004701A3 /* PBXTargetDependency */,
+			);
+			name = "色差游戏UITests";
+			productName = "色差游戏UITests";
+			productReference = 044453451D37A6E3004701A3 /* 色差游戏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044453191D37A6E3004701A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CYC;
+				TargetAttributes = {
+					044453201D37A6E3004701A3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WU3DD344F3;
+					};
+					044453391D37A6E3004701A3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044453201D37A6E3004701A3;
+					};
+					044453441D37A6E3004701A3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044453201D37A6E3004701A3;
+					};
+				};
+			};
+			buildConfigurationList = 0444531C1D37A6E3004701A3 /* Build configuration list for PBXProject "色差游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044453181D37A6E3004701A3;
+			productRefGroup = 044453221D37A6E3004701A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044453201D37A6E3004701A3 /* 色差游戏 */,
+				044453391D37A6E3004701A3 /* 色差游戏Tests */,
+				044453441D37A6E3004701A3 /* 色差游戏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0444531F1D37A6E3004701A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EC25E1D420E2800F7747E /* Icon-60@3x.png in Resources */,
+				046EC2651D420E2800F7747E /* iTunesArtwork in Resources */,
+				046EC2661D420E2800F7747E /* iTunesArtwork@2x in Resources */,
+				046EC25F1D420E2800F7747E /* Icon-Small.png in Resources */,
+				044453341D37A6E3004701A3 /* LaunchScreen.storyboard in Resources */,
+				046EC2611D420E2800F7747E /* Icon-Small@3x.png in Resources */,
+				046EC2631D420E2800F7747E /* Icon-Spotlight-40@2x.png in Resources */,
+				046EC25D1D420E2800F7747E /* Icon-60@2x.png in Resources */,
+				046EC2621D420E2800F7747E /* Icon-Spotlight-40.png in Resources */,
+				046EC2641D420E2800F7747E /* Icon-Spotlight-40@3x.png in Resources */,
+				044453311D37A6E3004701A3 /* Assets.xcassets in Resources */,
+				046EC2601D420E2800F7747E /* Icon-Small@2x.png in Resources */,
+				046EC25C1D420E2800F7747E /* Icon-60.png in Resources */,
+				0444532F1D37A6E3004701A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044453381D37A6E3004701A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044453431D37A6E3004701A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0444531D1D37A6E3004701A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0444532C1D37A6E3004701A3 /* ViewController.m in Sources */,
+				044453291D37A6E3004701A3 /* AppDelegate.m in Sources */,
+				044453591D37A70A004701A3 /* ColorGameView.m in Sources */,
+				044453261D37A6E3004701A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044453361D37A6E3004701A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0444533F1D37A6E3004701A3 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044453411D37A6E3004701A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0444534A1D37A6E3004701A3 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0444533C1D37A6E3004701A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044453201D37A6E3004701A3 /* 色差游戏 */;
+			targetProxy = 0444533B1D37A6E3004701A3 /* PBXContainerItemProxy */;
+		};
+		044453471D37A6E3004701A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044453201D37A6E3004701A3 /* 色差游戏 */;
+			targetProxy = 044453461D37A6E3004701A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0444532D1D37A6E3004701A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0444532E1D37A6E3004701A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044453321D37A6E3004701A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044453331D37A6E3004701A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0444534C1D37A6E3004701A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0444534D1D37A6E3004701A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0444534F1D37A6E3004701A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "色差游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sechayouxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		044453501D37A6E3004701A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "色差游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sechayouxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		044453521D37A6E3004701A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "色差游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYC.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/色差游戏.app/色差游戏";
+			};
+			name = Debug;
+		};
+		044453531D37A6E3004701A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "色差游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYC.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/色差游戏.app/色差游戏";
+			};
+			name = Release;
+		};
+		044453551D37A6E3004701A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "色差游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYC.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "色差游戏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		044453561D37A6E3004701A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "色差游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYC.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "色差游戏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0444531C1D37A6E3004701A3 /* Build configuration list for PBXProject "色差游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0444534C1D37A6E3004701A3 /* Debug */,
+				0444534D1D37A6E3004701A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0444534E1D37A6E3004701A3 /* Build configuration list for PBXNativeTarget "色差游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0444534F1D37A6E3004701A3 /* Debug */,
+				044453501D37A6E3004701A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044453511D37A6E3004701A3 /* Build configuration list for PBXNativeTarget "色差游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044453521D37A6E3004701A3 /* Debug */,
+				044453531D37A6E3004701A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044453541D37A6E3004701A3 /* Build configuration list for PBXNativeTarget "色差游戏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044453551D37A6E3004701A3 /* Debug */,
+				044453561D37A6E3004701A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044453191D37A6E3004701A3 /* Project object */;
+}
